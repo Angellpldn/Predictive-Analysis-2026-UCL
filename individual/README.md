@@ -25,7 +25,7 @@ Running the script generates:
 - error_by_price.png
 ```
 
-**.gitignore** — 新建文件，粘贴：
+**.gitignore** — ：
 ```
 *.csv
 __pycache__/
