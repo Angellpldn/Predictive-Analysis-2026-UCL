@@ -1,0 +1,16 @@
+
+EDA Summary:
+
+1. Class imbalance:
+Survival rate = 38.38%. Counts: {0: 549, 1: 342}.
+
+2. Key predictors:
+Sex and Pclass show strong relationships with survival. Females and higher-class passengers have higher survival rates.
+Age shows distribution differences between survivors and non-survivors.
+
+3. Missing values and leakage:
+Columns with missing values: {'Age': 19.865319865319865, 'Cabin': 77.10437710437711, 'Embarked': 0.22446689113355783}.
+Potential leakage risk exists in identifiers such as Name, Ticket, Cabin.
+
+4. Outliers:
+Fare and Age may contain outliers based on distribution spread.
