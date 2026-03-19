@@ -1,0 +1,40 @@
+Processed Titanic Data Report
+========================================
+
+X shape: (891, 8)
+y shape: (891,)
+
+X columns:
+['Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex_male', 'Embarked_Q', 'Embarked_S']
+
+X dtypes:
+Pclass        float64
+Age           float64
+SibSp         float64
+Parch         float64
+Fare          float64
+Sex_male      float64
+Embarked_Q    float64
+Embarked_S    float64
+dtype: object
+
+y dtype:
+int64
+
+Missing values in X:
+            missing_count  missing_percent
+Pclass                  0              0.0
+Age                     0              0.0
+SibSp                   0              0.0
+Parch                   0              0.0
+Fare                    0              0.0
+Sex_male                0              0.0
+Embarked_Q              0              0.0
+Embarked_S              0              0.0
+
+Missing values in y:
+missing_count: 0
+missing_percent: 0.00%
+
+Duplicate rows in X: 133
+Duplicate rows in combined X and y: 116

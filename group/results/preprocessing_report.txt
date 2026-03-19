@@ -1,0 +1,11 @@
+================================================================================
+TITANIC PREPROCESSING REPORT
+================================================================================
+
+Original Shape: (891, 12)
+Processed Shape: (891, 8)
+Features: ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex_male', 'Embarked_Q', 'Embarked_S']
+Missing Values (original): 866
+Missing Values (processed): 0
+Duplicate Rows: 0
+Survival Rate: 38.38%
