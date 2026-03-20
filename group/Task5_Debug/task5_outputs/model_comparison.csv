@@ -1,0 +1,5 @@
+Model,Accuracy,F1 Score
+Task 3 Baseline Logistic Regression,0.7932960893854749,0.7299270072992701
+Improved Logistic Regression + Feature Engineering,0.8212290502793296,0.7575757575757576
+Random Forest + Feature Engineering + CV Tuning,0.8044692737430168,0.7482014388489209
+Gradient Boosting + Feature Engineering + CV Tuning,0.7988826815642458,0.7313432835820896

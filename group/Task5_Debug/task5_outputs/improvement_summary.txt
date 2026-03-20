@@ -1,0 +1,20 @@
+Changes and why they should improve performance:
+1. Extracting Title from Name adds social-status and demographic information associated with survival patterns.
+2. Creating FamilySize adds family-structure information that may capture boarding and evacuation behavior.
+3. Dropping Ticket and Cabin removes sparse or high-cardinality fields that can add noise.
+4. Random Forest can capture nonlinear effects and feature interactions beyond a linear baseline.
+5. Gradient Boosting can improve predictive performance by sequentially correcting earlier errors.
+6. Hyperparameter tuning with cross-validation on the training set improves model selection without using test data.
+
+Best Random Forest Parameters:
+{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 1, 'classifier__min_samples_split': 5, 'classifier__n_estimators': 100}
+
+Best Gradient Boosting Parameters:
+{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100, 'classifier__subsample': 1.0}
+
+Model Comparison:
+                                              Model  Accuracy  F1 Score
+                Task 3 Baseline Logistic Regression  0.793296  0.729927
+ Improved Logistic Regression + Feature Engineering  0.821229  0.757576
+    Random Forest + Feature Engineering + CV Tuning  0.804469  0.748201
+Gradient Boosting + Feature Engineering + CV Tuning  0.798883  0.731343
